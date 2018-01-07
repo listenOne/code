@@ -25,3 +25,12 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    retrofit2Version = '2.3.0'
+    rxjavaVersion = '2.1.7'
+    rxandroidVersion = '2.0.1'
+    rxlifecycleVersion = '2.2.1'
+    loggingInterceptorVersion = '3.9.1'
+    glideVersion = '3.7.0'
+}
